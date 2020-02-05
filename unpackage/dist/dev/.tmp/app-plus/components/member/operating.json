@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "popup": "/components/member/popup"
+  },
+  "component": true
+}

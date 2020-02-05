@@ -1,0 +1,185 @@
+.search-item {
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  height: 90rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.search-item .select {
+  width: 260rpx;
+  height: 68rpx;
+  background: #f9f9f9;
+  font-size: 24rpx;
+  color: #333333;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.search-item .search {
+  width: 445rpx;
+  height: 68rpx;
+  background: #f9f9f9;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.search-item .search input {
+  width: 355rpx;
+  height: 100%;
+  padding-left: 18rpx;
+  font-size: 24rpx;
+}
+.search-item .search image {
+  width: 35rpx;
+  height: 100%;
+  margin-right: 20rpx;
+}
+.list {
+  position: absolute;
+  left: 0;
+  top: 90rpx;
+  bottom: 110rpx;
+  right: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #f6f6f6;
+}
+.list ._li {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  height: 165rpx;
+  background: #FFFFFF;
+  border-radius: 15rpx;
+  margin-top: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.list ._li .user-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.list ._li .user-info .avatar {
+  width: 112rpx;
+  height: 112rpx;
+  position: relative;
+}
+.list ._li .user-info .avatar image {
+  width: 100%;
+  height: 100%;
+}
+.list ._li .user-info .avatar image.sex {
+  width: 35rpx;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.list ._li .user-info .info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 20rpx;
+}
+.list ._li .user-info .info ._h5 {
+  font-size: 26rpx;
+  color: #292929;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.list ._li .user-info .info ._h5 text {
+  padding-left: 8rpx;
+  padding-right: 8rpx;
+  padding-top: 4rpx;
+  padding-bottom: 4rpx;
+  margin-left: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18rpx;
+  color: #9f9f9f;
+  border: solid 2rpx #ebebeb;
+  border-radius: 8rpx;
+}
+.list ._li .user-info .info .phone {
+  font-size: 22rpx;
+  color: #8d8d8d;
+  margin-top: 5rpx;
+}
+.list ._li .status {
+  color: #949494;
+  font-size: 22rpx;
+}
+.list ._li .status.red {
+  color: #ff0c6d;
+}
+

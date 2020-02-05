@@ -1,0 +1,66 @@
+.search {
+  margin: 20rpx 0 20rpx 0;
+  width: 600rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-indent: 2em;
+  background-color: #F8F8F8;
+  margin-left: 40rpx;
+  position: relative;
+}
+.search ._i:first-child {
+  position: absolute;
+  top: 6rpx;
+  left: -55rpx;
+  font-size: 45rpx;
+}
+.search ._i:last-child {
+  position: absolute;
+  top: 0;
+  right: -71rpx;
+  font-size: 54rpx;
+  color: #ff0066;
+}
+.search .input {
+  height: 100%;
+  font-size: 24rpx;
+}
+.searchBotBox {
+  margin-left: 40rpx;
+}
+.searchBotBox .fl {
+  font-size: 22rpx !important;
+  margin: 30rpx 0;
+}
+.searchBotBox .searchHistoryBox {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.searchBotBox .searchHistoryBox .searchHistoryBoxItem {
+  position: relative;
+  width: 180rpx;
+  height: 50rpx;
+  border: 1px solid #eee;
+  text-align: center;
+  line-height: 50rpx;
+  color: #ccc;
+  font-size: 24rpx;
+  border-radius: 10rpx;
+  margin-right: 52rpx;
+  margin-bottom: 20rpx;
+}
+.searchBotBox .searchHistoryBox .searchHistoryBoxItem ._i {
+  position: absolute;
+  top: -20rpx;
+  right: -20rpx;
+  font-size: 30rpx;
+}
+.searchBotBox .searchHistoryBox .searchHistoryBoxItem:nth-child(3n) {
+  margin-right: 0;
+}
+

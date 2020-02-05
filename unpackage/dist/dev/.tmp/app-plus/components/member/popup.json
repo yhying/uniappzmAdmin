@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "w-picker": "/components/w-picker/w-picker",
+    "async-switch": "/components/helang-asyncSwitch/helang-asyncSwitch"
+  },
+  "component": true
+}

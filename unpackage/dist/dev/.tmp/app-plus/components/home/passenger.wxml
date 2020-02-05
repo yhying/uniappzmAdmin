@@ -1,0 +1,1 @@
+<view class="chart"><canvas class="charts" canvas-id="canvasLineC" id="canvasLineC" disable-scroll="true" data-event-opts="{{[['touchstart',[['touchLineC',['$event']]]],['touchmove',[['moveLineC',['$event']]]],['touchend',[['touchEndLineC',['$event']]]]]}}" bindtouchstart="__e" bindtouchmove="__e" bindtouchend="__e"></canvas></view>

@@ -1,0 +1,20 @@
+{
+  "navigationBarTitleText": "会员",
+  "backgroundTextStyle": "dark",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "新增",
+        "fontSize": "28upx",
+        "color": "#333333"
+      }
+    ]
+  },
+  "usingComponents": {
+    "w-picker": "/components/w-picker/w-picker",
+    "popup": "/components/member/choose",
+    "search": "/components/jm-search/jm-search",
+    "page-footer": "/components/footer",
+    "popup2": "/components/member/popup"
+  }
+}

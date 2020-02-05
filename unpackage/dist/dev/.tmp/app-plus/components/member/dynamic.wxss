@@ -1,0 +1,185 @@
+.nums {
+  background: #FFFFFF;
+  height: 200rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.nums:after {
+  content: '';
+  position: absolute;
+  width: 1rpx;
+  height: 65rpx;
+  left: 50%;
+  top: 50%;
+  margin-left: -0.5rpx;
+  margin-top: -32.5rpx;
+  background: #e4e4e4;
+}
+.nums ._li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24rpx;
+  color: #6b6b6b;
+}
+.nums ._li text {
+  color: #333333;
+  font-size: 48rpx;
+  margin-bottom: 20rpx;
+}
+.list {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 220rpx;
+  background: #FFFFFF;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.list ._li {
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  border-top: solid 1rpx #f6f7f9;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.list ._li:first-child {
+  border-top: none;
+}
+.list ._li .avatar {
+  width: 90rpx;
+  height: 100%;
+}
+.list ._li .info {
+  width: 580rpx;
+  position: relative;
+}
+.list ._li .info .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.list ._li .info .title .user-title {
+  font-size: 32rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+}
+.list ._li .info .title .user-title text {
+  color: #FFFFFF;
+  height: 40rpx;
+  font-size: 24rpx;
+  width: 90rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+}
+.list ._li .info .title .user-title text.yuyue {
+  background: #9999ff;
+}
+.list ._li .info .title .user-title text.dingjin {
+  background: #ff9999;
+}
+.list ._li .info .title .user-title text.dingdan {
+  background: #99cccc;
+}
+.list ._li .info .title .date {
+  font-size: 22rpx;
+  color: #b7b7b7;
+}
+.list ._li .info .project {
+  font-size: 28rpx;
+  color: #333333;
+  margin-top: 10rpx;
+}
+.list ._li .info .remark {
+  font-size: 22rpx;
+  color: #949494;
+  margin-top: 15rpx;
+}
+.list ._li .info .message {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 126rpx;
+  height: 54rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 26rpx;
+  color: #333333;
+  border-radius: 10rpx;
+  border: solid 1rpx #d7d7d7;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+

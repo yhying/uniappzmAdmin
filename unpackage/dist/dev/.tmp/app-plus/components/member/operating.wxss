@@ -1,0 +1,42 @@
+.operating-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding-top: 33rpx;
+  background: #FFFFFF;
+}
+.operating-list ._li {
+  width: 25%;
+  height: 172rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.operating-list ._li .pic {
+  width: 70rpx;
+  height: 70rpx;
+}
+.operating-list ._li text {
+  font-size: 26rpx;
+  color: #282828;
+  margin-top: 20rpx;
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"sassH5","entryPagePath":"pages/login/index.html","page":{"pages/login/index.html":{"window":{"navigationBarTitleText":"登录","titleNView":false,"usingComponents":{"w-picker":"/components/w-picker/w-picker"}}},"pages/register/index.html":{"window":{"navigationBarTitleText":"申请入驻","titleNView":true,"usingComponents":{"w-picker":"/components/w-picker/w-picker","popup":"/components/member/popup"}}},"pages/tabBar/Order/order.html":{"window":{"navigationBarTitleText":"订单","titleNView":true,"usingComponents":{"page-footer":"/components/footer","w-picker":"/components/w-picker/w-picker"}}},"pages/tabBar/Price/price.html":{"window":{"navigationBarTitleText":"会员消费","titleNView":true,"usingComponents":{"page-footer":"/components/footer","w-picker":"/components/w-picker/w-picker"}}},"pages/price/detail.html":{"window":{"navigationBarTitleText":"收银台","titleNView":false,"usingComponents":{"page-order":"/components/price/order"}}},"pages/price/individual.html":{"window":{"navigationBarTitleText":"收银台","titleNView":true,"usingComponents":{"page-order":"/components/price/order"}}},"pages/tabBar/home/home.html":{"window":{"navigationBarTitleText":"控制台","titleNView":false,"usingComponents":{"page-footer":"/components/footer","performance":"/components/home/performance","consumption":"/components/home/consumption","passenger":"/components/home/passenger","w-picker":"/components/w-picker/w-picker"}}},"pages/tabBar/yuyue/yuyue.html":{"window":{"navigationBarTitleText":"预约","titleNView":true,"usingComponents":{"page-footer":"/components/footer","filter-page":"/components/yuyue/yuyueChoose","popup":"/components/member/popup","w-picker":"/components/w-picker/w-picker"}}},"pages/tabBar/member/member.html":{"window":{"navigationBarTitleText":"会员","backgroundTextStyle":"dark","titleNView":{"buttons":[{"text":"新增","fontSize":"28upx","color":"#333333"}]},"usingComponents":{"w-picker":"/components/w-picker/w-picker","popup":"/components/member/choose","search":"/components/jm-search/jm-search","page-footer":"/components/footer","popup2":"/components/member/popup"}}},"pages/member/detail.html":{"window":{"navigationBarTitleText":"会员详情","usingComponents":{"operating":"/components/member/operating","dynamic":"/components/member/dynamic","distribution":"/components/member/distribution","account":"/components/member/account"}}},"pages/member/addUser.html":{"window":{"navigationBarTitleText":"新增会员","titleNView":{"buttons":[{"text":"保存","fontSize":"28upx","color":"#333333"}]},"usingComponents":{"w-picker":"/components/w-picker/w-picker","async-switch":"/components/helang-asyncSwitch/helang-asyncSwitch"}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#FFFFFF","backgroundColor":"#FFFFFF"}},"tabBar":{"color":"#ccc","selectedColor":"#fc4141","backgroundColor":"#FFFFFF","borderStyle":"black","list":[],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/login/index","pages/register/index","pages/tabBar/Order/order","pages/tabBar/Price/price","pages/price/detail","pages/price/individual","pages/tabBar/home/home","pages/tabBar/yuyue/yuyue","pages/tabBar/member/member","pages/member/detail","pages/member/addUser"],"nvueCompiler":"weex","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.2.2","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

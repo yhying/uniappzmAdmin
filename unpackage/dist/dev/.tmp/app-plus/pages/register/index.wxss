@@ -1,0 +1,88 @@
+page {
+  background: #f6f6f6;
+}
+.form {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.form .input {
+  height: 88rpx;
+  margin-top: 22rpx;
+}
+.form .input.code {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form .input.code input {
+  width: 400rpx;
+}
+.form .input.code .code-btn {
+  width: 260rpx;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 24rpx;
+  color: #ff0066;
+  background: #FFFFFF;
+}
+.form .input input {
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  height: 100%;
+  background: #FFFFFF;
+  font-size: 26rpx;
+}
+.form .input text {
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #808080;
+  background: #FFFFFF;
+  font-size: 26rpx;
+}
+button {
+  width: 600rpx;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  background: #ff0066;
+  border-radius: 100rpx;
+  height: 88rpx;
+  margin-top: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+

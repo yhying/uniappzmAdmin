@@ -1,0 +1,171 @@
+.page {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(../../static/img/bj.dc8b0d83.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.page .form {
+  width: 600rpx;
+}
+.page .form .logo {
+  font-size: 30rpx;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 100rpx;
+}
+.page .form .logo image {
+  width: 120rpx;
+  margin-bottom: 20rpx;
+}
+.page .form .input {
+  background: #FFFFFF;
+  height: 88rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  border-radius: 100rpx;
+  margin-top: 20rpx;
+}
+.page .form .input:first-child {
+  margin-top: 0;
+}
+.page .form .input.code text {
+  font-size: 22rpx;
+  color: #FFFFFF;
+  width: 150rpx;
+  height: 68rpx;
+  position: absolute;
+  right: 10rpx;
+  top: 50%;
+  margin-top: -34rpx;
+  background: #ff0066;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100rpx;
+}
+.page .form .input.code input {
+  width: 290rpx;
+}
+.page .form .input input {
+  height: 100%;
+  font-size: 26rpx;
+  padding-left: 47rpx;
+  width: 430rpx;
+}
+.page .form .input text {
+  height: 100%;
+  font-size: 26rpx;
+  padding-left: 47rpx;
+  width: 430rpx;
+  color: #999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.page .form .input .icon {
+  height: 100%;
+  width: 50rpx;
+  margin-left: 50rpx;
+}
+.page button {
+  width: 600rpx;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  background: #ff0066;
+  border-radius: 100rpx;
+  height: 88rpx;
+  margin-top: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.page .register {
+  height: 50rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  width: 600rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page .register ._span {
+  text-decoration: underline;
+}
+

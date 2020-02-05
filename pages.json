@@ -1,0 +1,217 @@
+{
+	"pages": [{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},{
+			"path": "pages/register/index",
+			"style": {
+				"navigationBarTitleText": "申请入驻",
+				"app-plus": {
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/Order/order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"app-plus": {
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/Price/price",
+			"style": {
+				"navigationBarTitleText": "会员消费",
+				"app-plus": {
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/price/detail",
+			"style": {
+				"navigationBarTitleText": "收银",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/price/individual",
+			"style": {
+				"navigationBarTitleText": "收银",
+				"app-plus": {
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"app-plus": {
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/home/listItems",
+			"style": {
+				"navigationBarTitleText": "事项列表",
+				"app-plus": {
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/yuyue/yuyue",
+			"style": {
+				"navigationBarTitleText": "预约",
+				"app-plus": {
+					"titleNView": true
+				}
+			}
+		 }, {
+			"path": "pages/tabBar/member/member",
+			"style": {
+				"navigationBarTitleText": "会员",
+				"backgroundTextStyle":"dark",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "新增", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听，
+								"fontSize": "28upx",
+								"color": "#333333"
+								// "margin-right":"10upx"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/member/detail",
+			"style": {
+				"navigationBarTitleText": "会员详情"
+			}
+		}, {
+			"path": "pages/member/addUser",
+			"style": {
+				"navigationBarTitleText": "新增会员",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "保存", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听，
+								"fontSize": "28upx",
+								"color": "#333333"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/member/editUser",
+			"style": {
+				"navigationBarTitleText": "编辑会员",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "保存", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听，
+								"fontSize": "28upx",
+								"color": "#333333"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/member/reserve",
+			"style": {
+				"navigationBarTitleText": "会员预约",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "提交", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听，
+								"fontSize": "28upx",
+								"color": "#333333"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/member/myRemind",
+			"style": {
+				"navigationBarTitleText": "我的提示",
+				"app-plus": {
+				}
+			}
+		}, {
+			"path": "pages/member/addShop",
+			"style": {
+				"navigationBarTitleText": "添加门店",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "保存", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听，
+								"fontSize": "28upx",
+								"color": "#333333"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/member/addteacher",
+			"style": {
+				"navigationBarTitleText": "添加技师",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "保存", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听，
+								"fontSize": "28upx",
+								"color": "#333333"
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#ccc",
+		"selectedColor": "#fc4141",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": []
+	}
+}

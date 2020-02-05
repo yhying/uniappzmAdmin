@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "会员详情",
+  "usingComponents": {
+    "operating": "/components/member/operating",
+    "dynamic": "/components/member/dynamic",
+    "distribution": "/components/member/distribution",
+    "account": "/components/member/account"
+  }
+}

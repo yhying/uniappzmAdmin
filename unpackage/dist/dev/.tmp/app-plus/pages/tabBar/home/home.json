@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "控制台",
+  "titleNView": false,
+  "usingComponents": {
+    "page-footer": "/components/footer",
+    "performance": "/components/home/performance",
+    "consumption": "/components/home/consumption",
+    "passenger": "/components/home/passenger",
+    "w-picker": "/components/w-picker/w-picker"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "新增会员",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "保存",
+        "fontSize": "28upx",
+        "color": "#333333"
+      }
+    ]
+  },
+  "usingComponents": {
+    "w-picker": "/components/w-picker/w-picker",
+    "async-switch": "/components/helang-asyncSwitch/helang-asyncSwitch"
+  }
+}

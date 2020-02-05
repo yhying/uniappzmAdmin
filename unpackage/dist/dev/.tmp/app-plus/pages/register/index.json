@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "申请入驻",
+  "titleNView": true,
+  "usingComponents": {
+    "w-picker": "/components/w-picker/w-picker",
+    "popup": "/components/member/popup"
+  }
+}

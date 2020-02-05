@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "popup": "/components/member/popup",
+    "w-picker": "/components/w-picker/w-picker"
+  },
+  "component": true
+}

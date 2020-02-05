@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "预约",
+  "titleNView": true,
+  "usingComponents": {
+    "page-footer": "/components/footer",
+    "filter-page": "/components/yuyue/yuyueChoose",
+    "popup": "/components/member/popup",
+    "w-picker": "/components/w-picker/w-picker"
+  }
+}

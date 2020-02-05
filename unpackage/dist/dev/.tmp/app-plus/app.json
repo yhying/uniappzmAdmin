@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/register/index",
+    "pages/tabBar/Order/order",
+    "pages/tabBar/Price/price",
+    "pages/price/detail",
+    "pages/price/individual",
+    "pages/tabBar/home/home",
+    "pages/tabBar/yuyue/yuyue",
+    "pages/tabBar/member/member",
+    "pages/member/detail",
+    "pages/member/addUser"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#fc4141",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": []
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "sassH5",
+  "compilerVersion": "2.2.2",
+  "usingComponents": {}
+}
